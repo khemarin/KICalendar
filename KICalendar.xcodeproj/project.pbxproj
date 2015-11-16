@@ -14,6 +14,7 @@
 		B49E990A1BF965AC00441A28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B49E99091BF965AC00441A28 /* Images.xcassets */; };
 		B49E990D1BF965AC00441A28 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B49E990B1BF965AC00441A28 /* LaunchScreen.xib */; };
 		B49E99191BF965AC00441A28 /* KICalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49E99181BF965AC00441A28 /* KICalendarTests.swift */; };
+		B49E99231BF9688300441A28 /* KICalendar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B49E99221BF9688300441A28 /* KICalendar.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		B49E99121BF965AC00441A28 /* KICalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KICalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B49E99171BF965AC00441A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B49E99181BF965AC00441A28 /* KICalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KICalendarTests.swift; sourceTree = "<group>"; };
+		B49E99221BF9688300441A28 /* KICalendar.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KICalendar.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		B49E98F21BF965AC00441A28 = {
 			isa = PBXGroup;
 			children = (
+				B49E99221BF9688300441A28 /* KICalendar.podspec */,
 				B49E98FD1BF965AC00441A28 /* KICalendar */,
 				B49E99151BF965AC00441A28 /* KICalendarTests */,
 				B49E98FC1BF965AC00441A28 /* Products */,
@@ -195,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B49E99231BF9688300441A28 /* KICalendar.podspec in Resources */,
 				B49E99081BF965AC00441A28 /* Main.storyboard in Resources */,
 				B49E990D1BF965AC00441A28 /* LaunchScreen.xib in Resources */,
 				B49E990A1BF965AC00441A28 /* Images.xcassets in Resources */,
@@ -415,6 +419,7 @@
 				B49E991E1BF965AC00441A28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B49E991F1BF965AC00441A28 /* Build configuration list for PBXNativeTarget "KICalendarTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +428,7 @@
 				B49E99211BF965AC00441A28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
